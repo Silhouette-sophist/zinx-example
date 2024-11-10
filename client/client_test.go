@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-func TestName(t *testing.T) {
+func TestServer(t *testing.T) {
 	conn, err := net.Dial("tcp", "0.0.0.0:8081")
 	if err != nil {
 		slog.Error("dial error: %v", err)
